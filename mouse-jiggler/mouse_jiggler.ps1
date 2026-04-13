@@ -16,7 +16,7 @@
 #>
 
 param(
-    [int]$IntervalSeconds = 120
+    [int]$IntervalSeconds = 1
 )
 
 Add-Type -TypeDefinition @"
